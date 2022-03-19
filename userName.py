@@ -5,7 +5,7 @@
 
 
 
-
+#Function that returns username
 def getUsername():
     user = input("Choose username please: ")
     return user
