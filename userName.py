@@ -1,8 +1,17 @@
 #!/usr/bin/env python3
 
+import os
+import shutil
+import sys
 
-#Script to ask for username
+# ************************************
+# ******  Script to ask for username
 
+
+
+
+def check_reboot():
+    return os.path.exists("/run/reboot-required")
 
 
 #Function that returns username
